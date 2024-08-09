@@ -1,0 +1,81 @@
+.travel-container {
+  display: flex;
+  margin-top: 2rem;
+}
+.travel-image {
+  flex: 1.5;
+}
+.travel-image img {
+  width: 100%;
+}
+.travel-data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  gap: 1rem;
+}
+.travel-info p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  opacity: 0.8;
+}
+.travel-number {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ticket img {
+  bottom: 100px;
+  right: -100px;
+  position: absolute;
+  height: 215px;
+}
+
+@media (max-width: 1024px) {
+  .ticket img {
+    top: -45px;
+    right: -50px;
+  }
+}
+@media (max-width: 768px) {
+  .travel-container {
+    flex-wrap: wrap;
+  }
+  .travel-image {
+    justify-content: center;
+    display: flex;
+  }
+  .travel-image img {
+    width: 80vw;
+  }
+  .travel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .travel-info p {
+    text-align: center;
+  }
+  .travel-image img {
+    width: 100vw;
+  }
+}
+@media (max-width: 600px) {
+  .travel-info {
+    padding: 1rem 0;
+    margin: 0.5rem;
+  }
+  .travel-image img {
+    width: 100vw;
+  }
+}

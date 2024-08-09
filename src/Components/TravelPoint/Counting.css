@@ -1,0 +1,61 @@
+.travel-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.2rem;
+  min-width: 180px;
+  padding: 0.5rem;
+  outline: 1px solid #e4e1e1;
+  border-radius: 0.75rem;
+}
+.trav-lable {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.trav-count h5 {
+  font-family: CircularStd;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  color: #ff5722;
+}
+
+@media (max-width: 1024px) {
+  .travel-counter {
+    gap: 0.6rem;
+    padding: 0.5rem;
+    min-width: 40%;
+  }
+  .trav-count h5 {
+    line-height: 20px;
+    font-size: 25px;
+  }
+  .trav-lable {
+    line-height: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trav-count h5 {
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .trav-lable {
+    line-height: 20px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .travel-counter {
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    padding: 1.4rem;
+    min-width: 80vw;
+  }
+}

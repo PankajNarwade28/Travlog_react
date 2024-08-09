@@ -1,0 +1,46 @@
+.company-section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 11;
+  /* flex-wrap: wrap; */
+  margin: 2rem 1rem;
+}
+
+@media (max-width: 1024px) {
+  .company-section img {
+    height: 27px;
+  }
+}
+@media (max-width: 768px) {
+  .company-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0.1rem;
+  }
+  .company-section img {
+    margin: 0.2rem 1rem;
+    height: 20px;
+    max-width: 110px;
+  }
+}
+@media (max-width: 425px) {
+  .company-section img {
+    height: 18px;
+    margin: 0.5rem;
+  }
+}
+@media (max-width: 380px) {
+  .company-section img {
+    /* height: 12px; */
+  }
+}
+@media (max-width: 320px) {
+  .company-section img {
+    /* height: 10px; */
+  }
+  .hero-image img {
+    height: 275px;
+  }
+}

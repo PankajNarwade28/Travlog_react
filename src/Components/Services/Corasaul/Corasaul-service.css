@@ -1,0 +1,53 @@
+.service-carousel {
+  display: flex;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  height: 300px;
+  border: 1px solid #eae8e8;
+  justify-content: space-evenly;
+  min-width: 300px;
+  margin: 1rem;
+  border-radius: 0.65rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-body h5 {
+  font-family: CircularStd;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+}
+.card-body p {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28.8px;
+  opacity: 0.7;
+  text-align: center;
+  width: fit-content;
+  text-wrap: wrap;
+}
+.service-carousel-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .service-carousel-mobile {
+    display: block;
+  }
+  .service-carousel {
+    display: none;
+  }
+  .card {
+    height: 250px;
+    padding: 1rem;
+  }
+}

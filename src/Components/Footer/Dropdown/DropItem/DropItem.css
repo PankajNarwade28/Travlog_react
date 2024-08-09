@@ -1,0 +1,34 @@
+.dropitem h3 {
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: left;
+}
+.dropitem {
+  width: 100vw;
+}
+.dropdown {
+  border: 1px solid whitesmoke;
+  font-family: CircularStd;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+}
+
+.dropitem ul li {
+  color: black;
+  opacity: 0.6;
+}
+.dropdown,
+.dropitem ul li {
+  margin: 0 auto;
+  display: flex;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropitem ul li:hover {
+  cursor: pointer;
+  color: #f85e9f;
+}

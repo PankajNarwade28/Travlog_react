@@ -1,0 +1,51 @@
+.container {
+  max-width: 1184px !important;
+  margin: 0 auto;
+
+  font-family: CircularStd;
+  font-weight: 500;
+  padding: 1rem;
+}
+@font-face {
+  font-family: CircularStd;
+  src: url(./assets/circular-std-medium-500.ttf);
+}
+body {
+  background-color: #fffcfecc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Heading-H2 {
+  color: #f85e9f;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.Heading-H3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  color: #191825;
+}
+@media (max-width: 1024px) {
+  .Heading-H3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .Heading-H3 {
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 0 1rem; */
+  }
+  .container {
+    padding: 0 0.2rem;
+  }
+}

@@ -1,0 +1,126 @@
+.w350 {
+  width: 400px;
+}
+.desti-card {
+  max-width: 350px;
+  background-color: white !important;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  /* border: 0.5px solid rgb(224, 223, 223); */
+  box-shadow: 3px 10px 25px lightgray;
+}
+.desti-card:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.desti-card-image {
+  max-width: 350px;
+}
+.destiny-cards {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.desti-card-price {
+  color: #f85e9f;
+}
+
+.desti-card-info {
+  display: flex;
+  justify-content: space-between;
+}
+.desti-card-info h5 {
+  font-weight: 500;
+}
+.desti-margin {
+  margin: 1rem 0.2rem;
+}
+.desti-card h4 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.rating {
+  gap: 0.3rem;
+  color: #ff5722;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1120px) {
+  .desti-card {
+    max-width: 320px;
+  }
+  .desti-card-image {
+    max-width: 300px;
+  }
+}
+@media (max-width: 1024px) {
+  .desti-card {
+    max-width: 290px;
+  }
+}
+@media (max-width: 920px) {
+  .desti-card {
+    max-width: 240px;
+  }
+}
+@media (max-width: 768px) {
+  .destiny-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .desti-card {
+    min-width: 90%;
+  }
+  .desti-card-image {
+    max-width: none !important;
+  }
+  .desti-card-info h5 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .desti-card h4 {
+    font-size: 24px;
+  }
+  .rating {
+    font-size: 2rem;
+  }
+  .desti-card-info {
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+  }
+  .desti-margin {
+    margin: 0.4rem 0.2rem;
+  }
+}
+@media (max-width: 550px) {
+  .desti-card {
+    min-width: 100% !important;
+  }
+}
+@media (max-width: 425px) {
+  .desti-card-info h5 {
+    font-size: 1.5rem;
+  }
+
+  .desti-card h4 {
+    font-size: 15px;
+  }
+  .rating {
+    font-size: 1.2rem;
+  }
+  .desti-margin {
+    margin: 0.2rem;
+  }
+}
