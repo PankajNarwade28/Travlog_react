@@ -1,13 +1,17 @@
 import React from "react";
 import "./Footer.css";
 import { Dropdown } from "./Dropdown/Dropdown";
+import Navlogo from "/assets/nav-logo.png";
+import Fb from "/assets/Fb.png";
+import Twt from "/assets/Twt.png";
+import Inst from "/assets/Inst.png";
 export const Footer = () => {
   return (
     <>
       <footer className="footer-container" id="contact">
         <div className="footer-info">
           <div className="footer-logo">
-            <img src="../src/assets/nav-logo.png" alt="" />
+            <img src={Navlogo} alt="" />
             <h3>Travlog</h3>
           </div>
           <div className="footer-desc">
@@ -17,9 +21,9 @@ export const Footer = () => {
             </p>
           </div>
           <div className="footer-social">
-            <img src="../src/assets/Fb.png" alt="" />
-            <img src="../src/assets/Twt.png" alt="" />
-            <img src="../src/assets/Inst.png" alt="" />
+            <img src={Fb} alt="" />
+            <img src={Twt} alt="" />
+            <img src={Inst} alt="" />
           </div>
         </div>
         <div className="footer-links">

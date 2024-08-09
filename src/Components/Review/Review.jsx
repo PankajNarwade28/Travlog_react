@@ -1,5 +1,10 @@
 import React from "react";
 import "./Review.css";
+import Star from "/assets/star2.png";
+import ArrowL1 from "/assets/arrow-left 1.png";
+import ArrowL2 from "/assets/arrow-left 2.png";
+import Client from "/assets/client.png";
+import Dot from "/assets/dot.png";
 
 export const Review = () => {
   return (
@@ -9,7 +14,7 @@ export const Review = () => {
         <div className="left-button">
           {" "}
           <button className="arrow-button active">
-            <img src="../src/assets/arrow-left 1.png" alt="" />
+            <img src={ArrowL1} alt="" />
           </button>
         </div>
         <section id="testimonials">
@@ -22,7 +27,7 @@ export const Review = () => {
               <div class="box-top">
                 <div class="profile">
                   <div class="profile-img">
-                    <img src="../src/assets/client.png" />
+                    <img src={Client} />
                   </div>
                   <div class="name-user">
                     <strong>
@@ -30,11 +35,11 @@ export const Review = () => {
                       Mark Smith <span>/ Travel Enthusiast</span>
                     </strong>
                     <span>
-                      <img src="../src/assets/star2.png" alt="" />
-                      <img src="../src/assets/star2.png" alt="" />
-                      <img src="../src/assets/star2.png" alt="" />
-                      <img src="../src/assets/star2.png" alt="" />
-                      <img src="../src/assets/star2.png" alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
                     </span>
                   </div>
                 </div>
@@ -45,24 +50,24 @@ export const Review = () => {
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC.{" "}
                 </p>
-                <img src="../src/assets/dot.png" alt="" />
+                <img src={Dot} alt="" />
               </div>
             </div>
           </div>
         </section>
         <div className="right-button">
           <button className="arrow-button   ">
-            <img src="../src/assets/arrow-left 2.png" alt="" />
+            <img src={ArrowL2} alt="" />
           </button>
         </div>
       </div>
 
       <div className="mobile-arrow">
         <button className="arrow-button active">
-          <img src="../src/assets/arrow-left 1.png" alt="" />
+          <img src={ArrowL1} alt="" />
         </button>
         <button className="arrow-button">
-          <img src="../src/assets/arrow-left 2.png" alt="" />
+          <img src={ArrowL2} alt="" />
         </button>
       </div>
     </>

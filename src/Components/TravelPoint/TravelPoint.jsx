@@ -1,12 +1,13 @@
 import React from "react";
 import "./TravelPoint.css";
+import TravelImg from "/assets/travel-image.png";
 import { Countings } from "./Countings";
 export const TravelPoint = () => {
   return (
     <>
       <div className="travel-container">
         <div className="travel-image">
-          <img src="../src/assets/travel-image.png" alt="" />
+          <img src={TravelImg} alt="" />
         </div>
         <div className="travel-data">
           <div className="travel-info">

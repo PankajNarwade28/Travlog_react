@@ -1,6 +1,8 @@
 import React from "react";
 import "./Corasaul-service.css";
-
+// import Service1 from "/assets/service-img-1.png";
+// import Service2 from "/assets/service-img-2.png";
+// import Service3 from "/assets/service-img-3.png";
 export const CorasaulService = () => {
   return (
     <>
@@ -9,17 +11,17 @@ export const CorasaulService = () => {
           {
             title: "Best Tour Guide",
             desc: "What looked like a small patch of purple grass, above five feet.",
-            image: "../src/assets/service-img-1.png",
+            image: "/assets/service-img-1.png",
           },
           {
             title: "Easy Booking",
             desc: "Square, was moving across the sand in their direction.",
-            image: "../src/assets/service-img-2.png",
+            image: "/assets/service-img-2.png",
           },
           {
             title: "Weather Forecast",
             desc: "What looked like a small patch of purple grass, above five feet.",
-            image: "../src/assets/service-img-3.png",
+            image: "/assets/service-img-3.png",
           },
         ].map(({ title, desc, image }) => [
           <div className="card   ">

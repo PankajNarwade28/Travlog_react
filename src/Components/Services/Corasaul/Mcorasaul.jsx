@@ -8,17 +8,17 @@ export const Mcorasaul = () => {
           {
             title: "Best Tour Guide",
             desc: "What looked like a small patch of purple grass, above five feet.",
-            image: "../src/assets/service-img-1.png",
+            image: "/assets/service-img-1.png",
           },
           {
             title: "Easy Booking",
             desc: "Square, was moving across the sand in their direction.",
-            image: "../src/assets/service-img-2.png",
+            image: "/assets/service-img-2.png",
           },
           {
             title: "Best Tour Guide",
             desc: "What looked like a small patch of purple grass, above five feet.",
-            image: "../src/assets/service-img-1.png",
+            image: "/assets/service-img-1.png",
           },
         ].map(({ title, desc, image }) => [
           <div className="card   ">

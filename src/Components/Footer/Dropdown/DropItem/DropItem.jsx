@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./DropItem.css";
-
+import DropdownImg from "/assets/dropdown.png";
 export const DropItem = ({ heading, op1, op2, op3, op4 }) => {
   const [dropdown, toggleDropdown] = useState(false);
   return (
@@ -13,7 +13,7 @@ export const DropItem = ({ heading, op1, op2, op3, op4 }) => {
       >
         <div className="dropdown">
           <h3>{heading}</h3>
-          <img src="../src/assets/dropdown.png" alt="" />
+          <img src={DropdownImg} alt="" />
         </div>
         {dropdown ? (
           <ul>

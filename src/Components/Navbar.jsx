@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Button } from "../Screens/Button";
 import navlogo from "/assets/nav-logo.png";
+import Humber from "/assets/humber.png";
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
@@ -39,7 +40,7 @@ export const Navbar = () => {
               setToggleMenu(!toggleMenu);
             }}
           >
-            <img src="../src/assets/humber.png" alt="Humberger icon" />
+            <img src={Humber} alt="Humberger icon" />
           </div>
         </div>
 

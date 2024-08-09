@@ -1,6 +1,8 @@
 import React from "react";
 import "./Destination.css";
 import { DestinyCard } from "./DestinyCard/DestinyCard";
+import ArrowL1 from "/assets/arrow-left 1.png";
+import ArrowL2 from "/assets/arrow-left 2.png";
 export const Destination = () => {
   return (
     <>
@@ -12,10 +14,10 @@ export const Destination = () => {
           </div>
           <div className="desti-button">
             <button className="arrow-button active">
-              <img src="../src/assets/arrow-left 1.png" alt="" />
+              <img src={ArrowL1} alt="" />
             </button>
             <button className="arrow-button">
-              <img src="../src/assets/arrow-left 2.png" alt="" />
+              <img src={ArrowL2} alt="" />
             </button>
           </div>
         </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import "./KeyFeature.css";
 import { KeyInfofeature } from "./KeyInfofeature";
+import Location from "/assets/location.png";
+import Calendar from "/assets/calendar.png";
+import Coupen from "/assets/coupen.png";
+import KeyFeat from "/assets/keyfeature.png";
 export const KeyFeature = () => {
   return (
     <>
@@ -16,19 +20,19 @@ export const KeyFeature = () => {
           </div>
           <div className="key-info-features-section">
             <KeyInfofeature
-              logo={"../src/assets/location.png"}
+              logo={Location}
               label={"We Offer Best Services"}
               desc={"Lorem Ipsum is not simply random text"}
               color={"red"}
             />
             <KeyInfofeature
-              logo={"../src/assets/calendar.png"}
+              logo={Calendar}
               label={"Schedule your trip"}
               desc={"It has roots in a piece of classical"}
               color={"yellow"}
             />
             <KeyInfofeature
-              logo={"../src/assets/coupen.png"}
+              logo={Coupen}
               label={"Get discounted coupons"}
               desc={"Lorem Ipsum is not simply random text"}
               color={"pink"}
@@ -36,7 +40,7 @@ export const KeyFeature = () => {
           </div>
         </div>
         <div className="key-image">
-          <img src="../src/assets/keyfeature.png" alt="" />
+          <img src={KeyFeat} alt="" />
         </div>
       </div>
     </>
