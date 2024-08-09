@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Button } from "../Screens/Button";
-import { navlogo } from "../assets/nav-logo.png";
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <>
       <nav className="nav-container">
         <div className="nav-logo">
-          <img src={navlogo} alt="Navpand" />
+          <img src="../src/assets/nav-logo.png" alt="Navpand" />
           <span>Travlog</span>
         </div>
         <div className="nav-item">
