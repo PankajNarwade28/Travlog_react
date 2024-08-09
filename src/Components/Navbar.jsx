@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Button } from "../Screens/Button";
-import navlogo from "../assets/nav-logo.png";
+import navlogo from "/assets/nav-logo.png";
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
