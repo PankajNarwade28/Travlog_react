@@ -10,17 +10,17 @@ export const CorasaulService = () => {
         {[
           {
             title: "Best Tour Guide",
-            desc: "What looked like a small patch of purple grass.",
+            desc: "Helps to Make Beactiful Journey.",
             image: "/assets/service-img-1.png",
           },
           {
             title: "Easy Booking",
-            desc: "Square, was moving across the sand.",
+            desc: "No worry to Waste more time.",
             image: "/assets/service-img-2.png",
           },
           {
             title: "Weather Forecast",
-            desc: "What looked like a small patch of purple grass.",
+            desc: "No Obstacles during journey.",
             image: "/assets/service-img-3.png",
           },
         ].map(({ title, desc, image }) => [
