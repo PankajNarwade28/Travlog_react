@@ -7,17 +7,17 @@ export const Mcorasaul = () => {
         {[
           {
             title: "Best Tour Guide",
-            desc: "What looked like a small patch of purple grass, above five feet.",
+            desc: "What looked like a small.",
             image: "/assets/service-img-1.png",
           },
           {
             title: "Easy Booking",
-            desc: "Square, was moving across the sand in their direction.",
+            desc: "Square, was moving.",
             image: "/assets/service-img-2.png",
           },
           {
             title: "Best Tour Guide",
-            desc: "What looked like a small patch of purple grass, above five feet.",
+            desc: "What looked like a small patch.",
             image: "/assets/service-img-1.png",
           },
         ].map(({ title, desc, image }) => [
