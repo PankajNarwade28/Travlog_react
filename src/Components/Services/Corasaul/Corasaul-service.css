@@ -33,7 +33,7 @@
   opacity: 0.7;
   text-align: center;
   width: fit-content;
-  text-wrap: wrap;
+  text-wrap: wrap !important;
 }
 .service-carousel-mobile {
   display: none;
