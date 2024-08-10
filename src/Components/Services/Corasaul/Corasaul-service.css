@@ -34,7 +34,7 @@
   opacity: 0.7;
   text-align: center;
   text-wrap: wrap !important;
-  width: fit-content;
+  width: 80%;
 }
 .service-carousel-mobile {
   display: none;
