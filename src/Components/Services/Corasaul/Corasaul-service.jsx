@@ -10,18 +10,18 @@ export const CorasaulService = () => {
         {[
           {
             title: "Best Tour Guide",
-            desc: "What looked like a small.",
+            desc: "What looked like a small patch of purple grass, above five feet.",
             image: "/assets/service-img-1.png",
           },
           {
             title: "Easy Booking",
-            desc: "Square, was moving.",
+            desc: "Square, was moving across the sand in their direction.",
             image: "/assets/service-img-2.png",
           },
           {
-            title: "Best Tour Guide",
-            desc: "What looked like a small patch.",
-            image: "/assets/service-img-1.png",
+            title: "Weather Forecast",
+            desc: "What looked like a small patch of purple grass, above five feet.",
+            image: "/assets/service-img-3.png",
           },
         ].map(({ title, desc, image }) => [
           <div className="card   ">
