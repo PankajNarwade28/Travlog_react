@@ -93,7 +93,7 @@ export const Footer = () => {
         <h4>Developed By Pankaj Narwade with &hearts; </h4>
         <p> Technology used : React and Vanila CSS</p>
         <a
-          href="https://portfolio-pankaj-narwade.netlify.app/ "
+          href="https://pankajnarwade.vercel.app/ "
           target="_blank"
           rel="noreferrer"
         >
